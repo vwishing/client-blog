@@ -1,0 +1,253 @@
+body {
+    font-family: 'Slabo 27px', serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px 15px 30px;
+    vertical-align: middle;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: white;
+    background-color: #FFD3FF;   
+    background-image: url(images/header.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+  
+
+img {
+    width: 35%;
+    padding: 60px 75px 15px 75px;
+}
+
+.container {
+    margin: none;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+}
+
+.shari {
+    background-color: #ACD3FF;
+    background-image:
+    linear-gradient(
+        #ACD3FF, #FFD3FF
+    );
+    display: flex;
+    align-items: center;
+}
+
+.art-1 {
+    background-color: #FFD3FF;
+    background-image:
+    linear-gradient(
+        #FFD3FF, #ACD3FF
+    );
+    display: flex;
+    align-items: center;
+}
+
+.art-2 {
+    background-color: #ACD3FF;
+    background-image:
+    linear-gradient(
+        #ACD3FF, #FFD3FF
+    );
+    display: flex;
+    align-items: center;
+}
+.art-3 {
+    background-color: #FFD3FF;
+    background-image:
+    linear-gradient(
+        #FFD3FF, #ACD3FF
+    );
+    display: flex;
+    align-items: center;
+} 
+
+.cart {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ACD3FF;
+    border: none;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    font-size: 17px;
+    width: 12%;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 10px;
+    margin: 100px 25px;
+}
+  
+.cart .material-symbols-outlined {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.cart .material-symbols-outlined:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+  
+.cart:hover .material-symbols-outlined {
+    padding-right: 25px;
+}
+  
+.cart:hover .material-symbols-outlined:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* .shari .add-to-cart {
+    border-radius: 4px;
+    color: #5ca6fb;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 150px 50px 150px 50px;
+}
+
+.art-1 .add-to-cart {
+
+    border-radius: 4px;
+    color: #5ca6fb;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 150px 50px 150px 50px;
+}
+
+.art-2 .add-to-cart {
+
+    color: #5ca6fb;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 150px 50px 150px 50px;
+}
+
+.art-3 .add-to-cart {
+    background-color: #FFFFFF;
+    color: #5ca6fb;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 150px 50px 150px 50px;
+} */
+
+.add-to-cart {
+    display: inline-block;
+    width: 12%;
+    /* height: 50px; */
+    text-align: center;
+    align-items: right;
+    justify-content: right;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #5ca6fb;
+    font-size: 15px;
+    padding: 10px;
+    width: 40%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 150px 50px 150px 50px;
+}
+
+.add-to-cart:hover {
+    background-color: #ff966d
+}
+  
+.add-to-cart:active {
+    background-color: #ff966d;
+    transform: translateY(4px);
+}
+
+footer {
+    background-color: #ACD3FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.contact {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FFD3FF;
+    border: none;
+    color: #FFFFFF;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 12%;
+    cursor: pointer;
+    margin: 5px;
+}
+
+contact:hover {
+  background-color: #ce82ce;
+}
+
